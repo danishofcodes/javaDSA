@@ -31,7 +31,7 @@ public static void frequency(String str) {
     }
 
     if (!multipleMax) { 
-        System.out.println(maxChar + " max frequency is " + max);
+        System.out.println("\n'"+maxChar+"' has the max frequency, it occurs [ "+max+" ]-times");
     } else {
         System.out.println("There are no characters with a distinct maximum frequency.");
     }
